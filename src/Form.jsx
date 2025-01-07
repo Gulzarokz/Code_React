@@ -14,15 +14,15 @@ const [TnC, setTnC] = useState();
        
     }
   return (
-    <div>
-        <h1>our form</h1>
+    <div className='bg-black'>
+        <h1 className=''>our form</h1>
 
     <form onSubmit={handledata}>
         <h1>{name}</h1>
         <label htmlFor="name">Name:</label>
         <input type="text" 
         
-       onChange={(e)=>setName(e.target.value)} /> <br /> <br />
+       onChange={(e)=>setName(e.target.value)} /> <br /> <br className='mt-10' />
 
             <h2>{interest}</h2>
     <label htmlFor="Item">Brand:</label>
